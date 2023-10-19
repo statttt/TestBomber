@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e75090400730f0488a5e28692b16d67, type: 3}
+  m_Name: BombFactory
+  m_EditorClassIdentifier: 
+  _bombPrefab: {fileID: 9113273996129636434, guid: a309b50bfdcace04f8af51796f4e8bc3, type: 3}
+  _bombInfoList:
+  - {fileID: 11400000, guid: cf9aa629f180cbc4f9c2c46adb3d4293, type: 2}
+  - {fileID: 11400000, guid: eec5eb03024acb64ba80138662e5a4fb, type: 2}
+  - {fileID: 11400000, guid: aba9cd00321cbab4bb420f1ade201627, type: 2}
+  _respawnBombDelay: 3
